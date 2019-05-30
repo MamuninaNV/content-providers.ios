@@ -1,4 +1,4 @@
-source 'https://github.com/roxiemobile/static-cocoa-frameworks.ios.git'
+#source 'https://github.com/roxiemobile/static-cocoa-frameworks.ios.git'
 
 platform :ios, '9.0'
 use_frameworks!
@@ -15,8 +15,13 @@ target 'ContentProviders.SQLite' do
   project '../RoxieMobile.ContentProviders/Sources/SQLite/ContentProviders.SQLite.xcodeproj'
 
   # Dependencies
-  pod_from 'CryptoSwift', '~> 0.13.1'
-  pod_from 'SwiftCommons/Concurrent', '~> 1.3.1'
-  pod_from 'SwiftCommons/Extensions', '~> 1.3.1'
-  pod_from 'SQLite.swift/SQLCipher', '~> 0.11.5'
+  pod 'CryptoSwift', '~> 1.0.0'
+  pod 'Dispatch', :git => 'https://github.com/MamuninaNV/Dispatch.git', :branch => 'hotfix/2.0.4-patch.1'
+  pod 'SwiftCommonsAbstractions', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SwiftCommonsConcurrent', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SwiftCommonsExtensions', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SwiftCommonsLang', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SwiftCommonsLogging', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SwiftCommonsObjC', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
+  pod 'SQLite.swift/SQLCipher', '~> 0.12.0'
 end
