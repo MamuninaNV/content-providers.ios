@@ -71,22 +71,22 @@ CHECKOUT OPTIONS:
     :commit: d3c87e65f3c661dd142666b17249852f153f14b5
     :git: https://github.com/MamuninaNV/Dispatch.git
   SwiftCommonsAbstractions:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
   SwiftCommonsConcurrent:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
   SwiftCommonsExtensions:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
   SwiftCommonsLang:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
   SwiftCommonsLogging:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
   SwiftCommonsObjC:
-    :commit: 98a17fb43354a16ae898830fb102586ef35c0ed9
+    :commit: e64c0e45fa977e230cc3ac4900a0173271d8d8ef
     :git: https://github.com/MamuninaNV/swift-commons.ios.git
 
 SPEC CHECKSUMS:
