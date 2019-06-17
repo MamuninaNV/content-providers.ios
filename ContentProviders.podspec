@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.source = {
     git: 'https://github.com/MamuninaNV/content-providers.ios.git', branch: 'feature/RMCMT-104',
-    tag: s.version.to_s
+    # tag: s.version.to_s
   }
 
 # MARK: - Modules
