@@ -23,5 +23,5 @@ target 'ContentProviders.SQLite' do
   pod 'SwiftCommonsLang', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
   pod 'SwiftCommonsLogging', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
   pod 'SwiftCommonsObjC', :git => 'https://github.com/MamuninaNV/swift-commons.ios.git', :branch => 'feature/RMCMT-102'
-  pod 'SQLite.swift/SQLCipher', '~> 0.12.0'
+  pod 'SQLite.swift/SQLCipher', '~> 0.12.2'
 end
